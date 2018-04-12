@@ -24,13 +24,6 @@ function currentLine(katzDeliLine){
     return `The line is currently empty.`;
   }
   else{
-    for(var i = 0; i < katzDeliLine.length; i++){
-      var val = katzDeliLine.indexOf(i)+1;
-      temp.push(`${val}. ${katzDeliLine[i]}`);
-    }
-    temp.join(', ');
-    return `The line is currently: ${temp.join(', ')}`;
+    
   }
-  
-   
 }
