@@ -4,7 +4,5 @@ var katzDeliLine = [];
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
   console.log(`Welcome, ${name}. You are number ${katzDeliLine.indexOf(name)+1} in line.`);
-  
-  
-  
 }
+
