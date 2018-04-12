@@ -26,10 +26,12 @@ function currentLine(katzDeliLine){
   }
   else{
    for(var i = 0; i < katzDeliLine.length; i++){
-      val.push(katzDeliLine.indexOf(i)+1);
-      temp.push(katzDeliLine[i]);
+      val.push(`${katzDeliLine.indexOf(i)+1}. `); //push the numbers into an array
+      temp.push(katzDeliLine[i]); //push the names into an array
+      
+      
     }
    
-    return `The line is currently: ${temp.join(', ')}`;
+   
   }
 }
