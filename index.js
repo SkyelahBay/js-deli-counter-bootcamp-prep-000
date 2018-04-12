@@ -25,6 +25,7 @@ function currentLine(katzDeliLine){
   }
   else{
     for(var i = 0; i < katzDeliLine.length; i++){
+      let val = katzDeliLine.indexOf(i)+1 
       temp.push(`${katzDeliLine.indexOf(i)+1}. ${katzDeliLine[i]}`);
     }
     temp.join(', ');
