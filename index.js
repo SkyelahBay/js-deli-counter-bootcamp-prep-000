@@ -19,15 +19,15 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  let list = {
-    [number] : 
-  };
+  var list = {};
   if(katzDeliLine.length === 0){
     return `The line is currently empty.`;
   }
   else{
     for(var i = 0; i < katzDeliLine.length; i++){
-      temp.push(katzDeliLine[i]);
+      let number = katzDeliLine.indexOf(katzDeliLine[i]+1);
+      let name = katzDeliLine[i];
+      list[number] = name;
     }
     
   }
