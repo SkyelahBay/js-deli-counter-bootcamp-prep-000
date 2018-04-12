@@ -6,3 +6,11 @@ function takeANumber(katzDeliLine,name){
   console.log(`Welcome, ${name}. You are number ${katzDeliLine.indexOf(name)+1} in line.`);
 }
 
+function nowServing(){
+  if(katzDeliLine.length === 0){
+    return `There is nobody waiting to be served!`;
+  }
+  else{
+    console.log(`Now serving ${katzDeliLine[0]}!`);
+  }
+}
