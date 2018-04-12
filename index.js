@@ -4,8 +4,8 @@ var katzDeliLine = [];
 function takeANumber(katzDeliLine,name){
   katzDeliLine.push(name);
   for(var i = 0; i < katzDeliLine.length; i++){
-    
+    console.log(`Welcome ${name}. Y`)
   }
-  console.log(`Welcome ${name}. Y`)
+  
   
 }
