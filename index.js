@@ -24,11 +24,6 @@ function currentLine(katzDeliLine){
     return `The line is currently empty.`;
   }
   else{
-    for(var i = 0; i < katzDeliLine.length; i++){
-      let number = katzDeliLine.indexOf(katzDeliLine[i]+1);
-      let name = katzDeliLine[i];
-      list[number] = name;
-    }
-    return list;
+   //return {[index of name]+1}. {[name]}
   }
 }
