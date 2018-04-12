@@ -9,6 +9,9 @@ function takeANumber(katzDeliLine,name){
 }
 
 function nowServing(){
+    if(katzDeliLine.length === 0){
+      return 
+    }
     let name = katzDeliLine.shift();
     return `Currently serving ${name}.`;
   
