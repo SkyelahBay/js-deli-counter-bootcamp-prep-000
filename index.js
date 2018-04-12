@@ -19,13 +19,16 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  let temp =[];
+  let list = {
+    [number] : 
+  };
   if(katzDeliLine.length === 0){
     return `The line is currently empty.`;
   }
   else{
     for(var i = 0; i < katzDeliLine.length; i++){
-      return `The line is currently: ${ (katzDeliLine.indexOf(katzDeliLine[i]))+1}. ${katzDeliLine[i]}`;  
+      temp.push(katzDeliLine[i]);
     }
+    
   }
 }
