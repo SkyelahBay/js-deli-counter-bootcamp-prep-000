@@ -28,8 +28,7 @@ function currentLine(katzDeliLine){
       let number = katzDeliLine.indexOf(katzDeliLine[i]+1);
       let name = katzDeliLine[i];
       list[number] = name;
-      return list;
     }
-    
+    return list;
   }
 }
